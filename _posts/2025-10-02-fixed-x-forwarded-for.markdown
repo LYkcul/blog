@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 记一次 X-Forwarded-For 问题排查
-date: 2025-11-04 19:05:05 +0800
+date: 2025-10-02 10:42:43 +0800
 category: 技术向
 tags: [caddy, aliyun]
 # image: 
