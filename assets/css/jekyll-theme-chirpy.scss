@@ -1,15 +1,17 @@
 ---
 ---
 
+/* prettier-ignore */
 @use 'main
-{%- if jekyll.environment == ' production ' -%}
+{%- if jekyll.environment == 'production' -%}
   .bundle
 {%- endif -%}
 ';
 
 /* append your custom style below */
-@use 'colorbox.scss'; // colorbox 样式
-@use 'details.scss'; // details 元素样式
+
+@use './colorbox';
+@use './details';
 
 // prompt 边框阴影
 blockquote[class^='prompt-'] {
