@@ -24,8 +24,8 @@
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('search-results'),
       json: '{{ '/assets/js/data/search.json' | relative_url }}',
-      searchResultTemplate: '{{ result_elem | strip_newlines }}',
-      noResultsText: '{{ not_found }}',
+      searchResultTemplate: {{ result_elem | strip_newlines | jsonify }},
+      noResultsText: {{ not_found | strip_newlines | jsonify }},
       templateMiddleware: function(prop, value, template) {
         if (prop === 'categories') {
           if (value === '') {
@@ -69,6 +69,7 @@
             return `${value}`;
           }
         }
+        return value;
       }
     });
   });
