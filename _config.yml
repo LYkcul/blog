@@ -25,7 +25,7 @@ description: >- # used by seo meta and the atom feed
 url: "https://blog.liuh.im"
 
 github:
-  username: LYkcul # change to your GitHub username
+  username: Lyricus233 # change to your GitHub username
   branch: main
   repository: blog
 
@@ -44,7 +44,7 @@ social:
     # The first element serves as the copyright owner's link
     - https://liuh.im/
     - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/LYkcul # change to your GitHub homepage
+    - https://github.com/Lyricus233 # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -103,7 +103,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://github.com/LYkcul.png
+avatar: https://github.com/Lyricus233.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -124,7 +124,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: LYkcul/blog # <gh-username>/<repo>
+    repo: Lyricus233/blog # <gh-username>/<repo>
     repo_id: R_kgDOQOxeHg
     category: Announcements
     category_id: DIC_kwDOQOxeHs4CxbG-
